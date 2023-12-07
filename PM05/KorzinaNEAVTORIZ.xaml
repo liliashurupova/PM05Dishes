@@ -1,0 +1,45 @@
+﻿<Window x:Class="PM05.KorzinaNEAVTORIZ"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PM05"
+        mc:Ignorable="d"
+        Title="KorzinaNEAVTORIZ" Height="450" Width="800">
+    <Grid>
+        <Button HorizontalAlignment="Left" Height="46" Margin="704,34,0,0" VerticalAlignment="Top" Width="47" BorderBrush="#00160202" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="/Frame 16.png"/>
+            </Button.Background>
+        </Button>
+        <Button HorizontalAlignment="Left" Height="46" Margin="646,34,0,0" VerticalAlignment="Top" Width="47">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush ImageSource="/Frame 15.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Войти" HorizontalAlignment="Left" Height="30" Margin="704,74,0,0" VerticalAlignment="Top" Width="47"/>
+        <Label HorizontalAlignment="Left" Margin="641,76,0,0" VerticalAlignment="Top" Content="Корзина"/>
+        <Image Margin="263,46,242,358" Source="/Frame 17.png" Stretch="Fill"/>
+        <Button HorizontalAlignment="Left" Height="38" Margin="177,42,0,0" VerticalAlignment="Top" Width="37" Click="Button_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Frame 18.png"/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+        </Button>
+        <Image Margin="0,0,702,335" Source="/image 1.png" Stretch="Fill"/>
+        <Image Margin="254,141,233,86" Source="/Rectangle 29.png" Stretch="Fill"/>
+        <Image Margin="358,109,336,309" Source="/КОРЗИНА.png" Stretch="Fill"/>
+        <Label Content="Войдите в аккаунт" HorizontalAlignment="Left" Margin="310,180,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Height="37" Width="200" FontSize="18"/>
+        <Button HorizontalAlignment="Left" Height="50" Margin="330,245,0,0" VerticalAlignment="Top" Width="162" BorderBrush="#00707070" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="/Frame 21.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
